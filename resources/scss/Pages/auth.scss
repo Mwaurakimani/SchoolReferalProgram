@@ -1,0 +1,30 @@
+@use "../Utilities/elevation";
+@use "../Utilities/text";
+@use "../Utilities/links";
+@use "../Utilities/colors";
+@use "../Utilities/inputs";
+@use "../Utilities/buttons";
+
+
+.signup-form{
+    h6{
+        font-weight: 300;
+    }
+    &>.form-group{
+        @apply px-[30px] mb-[20px];
+        label{
+            @apply py-[5px];
+        }
+        input{
+            @apply mb-[10px];
+        }
+        i{
+            font-size: 30px;
+            color: #cbcbcb;
+        }
+        small{
+            display: block;
+            text-align: right;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+2:1: (conn=1357) Duplicate entry '1' for key 'PRIMARY'
+3:1: (conn=1357) Duplicate entry '2' for key 'PRIMARY'
+4:1: (conn=1357) Duplicate entry '3' for key 'PRIMARY'
+5:1: (conn=1357) Duplicate entry '4' for key 'PRIMARY'
+6:1: (conn=1357) Duplicate entry '5' for key 'PRIMARY'

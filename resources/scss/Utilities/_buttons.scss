@@ -1,0 +1,12 @@
+@import "./colors";
+button.app{
+    @apply rounded text-white px-[10px] py-[5px] bg-gray-700;
+
+    &:hover{
+        @apply bg-gray-800
+    }
+
+    &:active{
+        @apply bg-gray-800
+    }
+}

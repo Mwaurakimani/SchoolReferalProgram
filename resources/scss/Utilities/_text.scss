@@ -1,0 +1,50 @@
+@function calculate-heading-font-size($heading-level, $base-size: 1.1em, $increment: 0.1em) {
+    @return $base-size - ($increment * ($heading-level - 6));
+}
+
+h6 {
+    font-size: calculate-heading-font-size(6) !important;
+}
+
+h5 {
+    font-size: calculate-heading-font-size(5) !important;
+}
+
+h4 {
+    font-size: calculate-heading-font-size(4) !important;
+}
+
+h3 {
+    font-size: calculate-heading-font-size(3) !important;
+}
+
+h2 {
+    font-size: calculate-heading-font-size(2) !important;
+}
+
+h1 {
+    font-size: calculate-heading-font-size(1) !important;
+}
+
+p {
+    font-size: 1em;
+}
+
+label {
+    color: white;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+body{
+    color: white;
+}
+
+small {
+    @apply text-sm;
+}
+
+form small {
+    font-size: 12px !important;
+    @apply text-red-500 #{!important};
+}

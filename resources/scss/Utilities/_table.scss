@@ -1,0 +1,31 @@
+@import "./colors";
+
+
+table{
+    @apply rounded overflow-hidden;
+    thead{
+        tr{
+            th{
+                @apply bg-gray-800 text-gray-200 font-medium #{!important};
+            }
+        }
+    }
+
+    tbody{
+        tr{
+            border: none;
+            transition: all ease-in 100ms;
+            @apply bg-gray-800 #{!important};
+
+            td,th{
+                border-bottom: 1px solid;
+                @apply bg-transparent border-gray-700 text-gray-100 #{!important};
+            }
+
+            &:hover{
+                cursor: pointer;
+                @apply bg-gray-600 #{!important};
+            }
+        }
+    }
+}

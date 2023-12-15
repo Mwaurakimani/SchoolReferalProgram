@@ -1,0 +1,17 @@
+input[type='text'].app,
+input[type='email'].app,
+input[type='password'].app,
+select.app,
+textarea.app {
+    @apply rounded text-red-50 placeholder-gray-300 text-sm bg-gray-600 border-2 [border:red];
+    font-weight: 300;
+    height: 35px;
+    margin: 0 !important;
+
+    &:active{
+        @apply border-gray-900
+    }
+    &:focus{
+        @apply border-gray-900
+    }
+}

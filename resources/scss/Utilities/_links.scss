@@ -1,0 +1,12 @@
+a.app{
+    color: white;
+    @apply rounded text-sm;
+    transition: all ease-in 100ms;
+    &:hover{
+        @apply bg-gray-500
+    }
+}
+
+a.app.active{
+    @apply bg-gray-500
+}

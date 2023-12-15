@@ -1,0 +1,24 @@
+
+@mixin generate-z-index-classes($z-index) {
+    z-index: $z-index;
+}
+
+$z-index-values: (
+    'z-under-4': -400,
+    'z-under-3': -300,
+    'z-under-2': -200,
+    'z-under-1': -100,
+    'z-ground': 0,
+    'z-elevate-1': 200,
+    'z-elevate-2': 400,
+    'z-elevate-3': 500,
+    'z-elevate-4': 1600,
+    'z-elevate-5': 3200,
+    'z-elevate-6': 6400,
+);
+
+@each $class-name, $z-value in $z-index-values {
+    .#{$class-name} {
+        @include generate-z-index-classes($z-value);
+    }
+}

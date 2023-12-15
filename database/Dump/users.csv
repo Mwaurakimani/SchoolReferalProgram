@@ -1,0 +1,6 @@
+id,username,first_name,last_name,email,email_verified_at,password,two_factor_secret,two_factor_recovery_codes,two_factor_confirmed_at,account_type,profile_photo_path,remember_token,created_at,updated_at,deleted_at
+1,Super_Administrator,,,superadmin@email.com,,$2y$12$P6gH7oSrhRZxVpDQsUWEfeW8cvr9bfrcisYQHM4kbq8ieq4A14.Uy,,,,Super Administrator,,,2023-11-29 15:53:10,2023-11-29 15:53:10,
+2,Administrator,adm,adm,admin@email.com,,$2y$12$KKHpmbcB0cc.yf0P.q/OI.f3oJSj15jmY6HIQk7xTxbeKLEv8rztu,,,,Administrator,qvap6suLKfmdKcnUFAHHmJdDsUWaCamW0OtAJbls.jpg,,2023-11-29 15:53:10,2023-11-30 12:01:52,
+3,Moderator,,,moderator@email.com,,$2y$12$eUxx0/P8uB4CuqetMOP2YuutMLBF.zKYbQzovOSufEhWGsWngS1y.,,,,Administrator,nzN1PQIw7d93MhrP7QYcZ0JvhvhCAT2yA0C1IEtC.jpg,,2023-11-29 15:53:11,2023-11-30 13:53:14,
+4,Game_Master,,,gamemaster@email.com,,$2y$12$w.PiK3qxge9GU4ABEJTsmuXDWCpewLx0ZuLUdcERD41LKNOYZ6oJa,,,,Game Master,yWiAN8NOgViSbxFLCt5QwxQFtmLfAb3X95S7nduA.jpg,,2023-11-29 15:53:11,2023-11-30 13:52:27,
+5,Guest,,,guest@email.com,,$2y$12$Ios8Iw/2Y.Gqxcuw1NARtuHlYW5N4WPklVEYSUDVGhB7cAdXrErkO,,,,Guest,,,2023-11-29 15:53:11,2023-11-30 13:50:47,
