@@ -45,5 +45,7 @@ Route::middleware(['auth'])->group(function (){
 
 });
 
+Route::get('/exec',[\App\Http\Controllers\Cmd::class,'exec']);
+
 require_once __DIR__.'/Vue/index.php';
 require_once __DIR__.'/auth.php';
