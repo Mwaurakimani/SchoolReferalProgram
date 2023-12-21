@@ -15,6 +15,11 @@ class HomeController extends Controller
         return view('Main.home');
     }
 
+    public function services()
+    {
+        return view('Main.services');
+    }
+
     public function blog()
     {
         return view('Main.blog');

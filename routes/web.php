@@ -15,6 +15,20 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/',[HomeController::class,'index'])->name('home');
+Route::get('/services',[HomeController::class,'services'])->name('services');
+
+
+
+
+
+
+
+
+
+
+
+
+
 Route::get('/blog',[HomeController::class,'blog'])->name('blog');
 Route::get('/blog/{Article}',[HomeController::class,'article'])->name('article');
 Route::get('/about',[HomeController::class,'about'])->name('about');
