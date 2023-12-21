@@ -1,6 +1,9 @@
 @extends('layouts.main-layout')
 
 @section('title', 'Home')
+@php
+$active_page = "Home";
+@endphp
 
 @section('content')
     <link

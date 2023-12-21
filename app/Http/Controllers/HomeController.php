@@ -20,6 +20,11 @@ class HomeController extends Controller
         return view('Main.services');
     }
 
+    public function registration()
+    {
+        return view('Main.registration');
+    }
+
     public function blog()
     {
         return view('Main.blog');

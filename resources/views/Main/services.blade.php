@@ -1,5 +1,7 @@
 @extends('layouts.main-layout')
-
+@php
+    $active_page = "services";
+@endphp
 @section('title', 'Our Services')
 
 @section('content')

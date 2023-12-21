@@ -57,5 +57,35 @@ html {
     }
 }
 
+.reg-form{
+    padding: 10px;
+    @screen md{
+        .form-group{
+            @apply mb-[10px]
+        }
+    }
+
+    input[type='text'].app,
+    input[type='email'].app,
+    input[type='password'].app,
+    input[type='date'].app,
+    select.app,
+    textarea.app {
+        @apply rounded placeholder-gray-300 text-sm;
+        border: 1px solid darkgrey;
+        font-weight: 300;
+        height: 35px;
+        margin: 0 !important;
+
+        &:active{
+            @apply border-gray-900
+        }
+        &:focus{
+            @apply border-gray-900
+        }
+    }
+
+}
+
 
 
