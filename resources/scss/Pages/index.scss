@@ -6,11 +6,56 @@
 @use "../Utilities/inputs";
 @use "../Utilities/table";
 
-html{
-    font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+html {
+    font-family: Roboto, Helvetica Neue, Arial, sans-serif;
 }
 
+.banner {
+    background-image: linear-gradient(90deg, #cccbcb, white, #cccbcb);
+}
 
+.banner-bottom {
+    width: 100%;
+    background-color: #AF3862;
+    color: white;
+
+    li {
+        align-items: start;
+        margin: 0 20px 10px;
+        @screen sm {
+        }
+        div {
+            margin: 0 20px;
+        }
+    }
+
+    @screen md{
+        p{
+            max-width: 130px;
+        }
+    }
+    p {
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+}
+
+.footer-links{
+    padding: 20px;
+    &>div>div{
+        margin-bottom: 20px;
+    }
+    h2{
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+    ul {
+        li {
+            padding: 8px 0;
+            color: grey;
+        }
+    }
+}
 
 
 

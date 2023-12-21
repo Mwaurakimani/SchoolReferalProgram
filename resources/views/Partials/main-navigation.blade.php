@@ -32,7 +32,7 @@
         <button class="bg-pink-700 px-[10px] py-[4px] rounded-[3px] text-white text-[0.8em]">ENQUIRE NOW<i class="bi bi-chat-fill mx-[3px]"></i></button>
     </div>
 </div>
-<div class="container bg-white flex flex-col md:flex-row items-center justify-center md:justify-between">
+<div class="container mb-[20px] bg-white flex flex-col md:flex-row items-center justify-center md:justify-between">
     <div class="w-[150px] h-[60px] bg-red-900 text-purple-50">Logo</div>
     <div class="w-[100%] md:w-[calc(100%-200px)]">
         <div id="searchSection" class="w-[100%] hidden">
