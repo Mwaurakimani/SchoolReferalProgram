@@ -6,7 +6,7 @@
         <li class="px-[5px]"><i class="bi bi-instagram text-purple-700 text-[20px] px-[0px] w-[22px]"></i></li>
         <li class="px-[5px]"><i class="bi bi-youtube text-purple-700 text-[20px] px-[0px] w-[22px]"></i></li>
     </ul>
-    <div class="h-[50px] flex items-center space-x-2">
+    <div class="h-[50px] flex items-center space-x-2" style="z-index: 15000">
         <div class="dropdown">
             <a class="btn btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                data-bs-toggle="dropdown" aria-expanded="false">

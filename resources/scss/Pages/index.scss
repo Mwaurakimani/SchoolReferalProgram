@@ -69,6 +69,7 @@ html {
     input[type='email'].app,
     input[type='password'].app,
     input[type='date'].app,
+    input[type='datetime-local'].app,
     select.app,
     textarea.app {
         @apply rounded placeholder-gray-300 text-sm;

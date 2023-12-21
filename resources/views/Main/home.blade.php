@@ -21,7 +21,7 @@ $active_page = "Home";
                     you to get the right college or university and to ensure a smooth
                     transition to studying abroad.
                 </p>
-                <button class="bg-orange-500 w-[fit-content] rounded text-white text-sm p-[8px]">BOOK YOUR CONSULTATION TODAY</button>
+                <button onclick="window.location.href='/book'" class="bg-orange-500 w-[fit-content] rounded text-white text-sm p-[8px]">BOOK YOUR CONSULTATION TODAY</button>
             </div>
             <div class="w-[100%] h-[100%]">
                 <img class="h-[100%]" loading="lazy" decoding="async" src="https://wellpointeducation.com/wp-content/uploads/2022/03/happy-student.png" alt="" title="happy-student">
@@ -80,7 +80,7 @@ $active_page = "Home";
         <h4 class="text-gray-50 font-bold my-[15px] text-center">Get Started</h4>
         <p class="!text-center max-w-[500px] mx-[auto] mb-[20px] !text-white">Talk to our team today! We will guide you through the entire process of getting
             you started on international studies abroad in a university or college of choice</p>
-        <button class="bg-white mb-[30px] !text-orange-500 rounded p-[10px] font-semibold block mx-[auto]">TALK TO US</button>
+        <button onclick="window.location.href='/enquiry'" class="bg-white mb-[30px] !text-orange-500 rounded p-[10px] font-semibold block mx-[auto]">TALK TO US</button>
         <div class="container flex items-center justify-center">
             <img loading="lazy" decoding="async" width="789" height="355" src="https://wellpointeducation.com/wp-content/uploads/2022/03/chillers.png" alt="" title="chillers" srcset="https://wellpointeducation.com/wp-content/uploads/2022/03/chillers.png 789w, https://wellpointeducation.com/wp-content/uploads/2022/03/chillers-480x216.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 789px, 100vw" class="wp-image-163">
         </div>

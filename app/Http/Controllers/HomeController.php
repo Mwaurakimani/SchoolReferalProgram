@@ -35,6 +35,12 @@ class HomeController extends Controller
         return view('Main.privacy');
     }
 
+
+    public function book()
+    {
+        return view('Main.book');
+    }
+
     public function blog()
     {
         return view('Main.blog');

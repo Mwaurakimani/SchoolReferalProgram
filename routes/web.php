@@ -19,6 +19,7 @@ Route::get('/services',[HomeController::class,'services'])->name('services');
 Route::get('/registration',[HomeController::class,'registration'])->name('registration');
 Route::get('/enquiry',[HomeController::class,'enquiry'])->name('enquiry');
 Route::get('/privacy',[HomeController::class,'privacy'])->name('privacy');
+Route::get('/book',[HomeController::class,'book'])->name('book');
 
 
 
