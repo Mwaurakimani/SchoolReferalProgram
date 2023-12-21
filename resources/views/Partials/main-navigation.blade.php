@@ -32,7 +32,7 @@
         </ul>
     </div>
     <div class="h-[50px] flex items-center justify-center">
-        <button class="bg-pink-700 px-[10px] py-[4px] rounded-[3px] text-white text-[0.8em]">ENQUIRE NOW<i
+        <button onclick="window.location.href='/enquiry'" class="bg-pink-700 px-[10px] py-[4px] rounded-[3px] text-white text-[0.8em]">ENQUIRE NOW<i
                 class="bi bi-chat-fill mx-[3px]"></i></button>
     </div>
 </div>

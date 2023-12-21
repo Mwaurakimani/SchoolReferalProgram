@@ -11,17 +11,17 @@
                 <div class="md:w-[50%]">
                     <h2>LEGAL</h2>
                     <ul>
-                        <li><a href="">Term & Conditions</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">FAQs</a></li>
+                        <li><a href="/terms">Term & Conditions</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/FAQs">FAQs</a></li>
                     </ul>
                 </div>
                 <div class="md:w-[50%]">
                     <h2>CONTACT</h2>
                     <ul>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Careers</a></li>
-                        <li><a href="">Guidelines</a></li>
+                        <li><a href="/contactus">Contact</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/guides">Guidelines</a></li>
                     </ul>
                 </div>
             </div>

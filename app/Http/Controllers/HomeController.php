@@ -25,6 +25,16 @@ class HomeController extends Controller
         return view('Main.registration');
     }
 
+    public function enquiry()
+    {
+        return view('Main.enquiry');
+    }
+
+    public function privacy()
+    {
+        return view('Main.privacy');
+    }
+
     public function blog()
     {
         return view('Main.blog');
