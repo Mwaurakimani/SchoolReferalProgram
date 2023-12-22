@@ -14,12 +14,11 @@ $active_page = "Home";
     <div class="banner">
         <div class="container flex flex-col md:flex-row md:h-[500px] md:items-stretch h-[100%]">
             <div class="w-[100%] md:h-[100%] text-center md:!text-left p-[20px] flex flex-col justify-center">
-                <h2 class="font-bold !text-[35px] mb-[15px] text-blue-700">Your Trusted Education Consulting Partner</h2>
+                <h2 class="font-bold !text-[35px] mb-[15px] text-blue-700">Begin your Journey</h2>
                 <p class="text-[18px] font-semibold mb-[20px] text-gray-600">
-                    At Wellpoint Education Agency, we take educational services to the
-                    next level, offering you a variety of customized services, to enable
-                    you to get the right college or university and to ensure a smooth
-                    transition to studying abroad.
+                    Find out more about studying in the most popular international study destinations
+                    worldwide with our extensive guides including information on applications, visas,
+                    universities, courses, costs, scholarships and more.
                 </p>
                 <button onclick="window.location.href='/book'" class="bg-orange-500 w-[fit-content] rounded text-white text-sm p-[8px]">BOOK YOUR CONSULTATION TODAY</button>
             </div>
@@ -28,46 +27,90 @@ $active_page = "Home";
             </div>
         </div>
     </div>
-    <ul class="banner-bottom flex flex-col justify-center py-[20px]  md:h-[130px] md:flex-row md:space-x-[20px] mb-[50px]">
-        <li class="flex">
-            <div class="icon-holder">
-                <img class="w-[30px]" src="https://img.icons8.com/glyph-neue/64/FFFFFF/america.png" alt="america"/>
-            </div>
-            <p>Study in 12 Countries</p>
-        </li>
-        <li class="flex">
-            <div class="icon-holder">
-                <i class="bi bi-book text-[25px] text-white"></i>
-            </div>
-            <p>59 Degree & Diploma Courses</p>
-        </li>
-        <li class="flex">
-            <div class="icon-holder">
-                <img class="w-[30px]" src="https://img.icons8.com/pastel-glyph/64/FFFFFF/route--v1.png" alt="route--v1"/>
-            </div>
-            <p>Guided College Applications</p>
-        </li>
-        <li class="flex">
-            <div class="icon-holder">
-                <img class="w-[25px]" src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/chat.png" alt="chat"/>
-            </div>
-            <p>Professional Counselling</p>
-        </li>
-    </ul>
+    <div class="flex items-center py-[20px] mb-[50px] flex-col container">
+        <h1 class="font-semibold pb-[30px]" style="color: lightseagreen">Where Can you Study</h1>
+        <ul class="flex flex-wrap md:flex-nowrap container mx-auto mb-[20px]">
+            <li class="w-full md:w-1/3 mb-[10px]">
+                <div class="w-[250px] h-[300px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
+                    <div class="w-[80px] h-[80px] overflow-hidden bg-blue-300 rounded-[50%] mx-auto" >
+                        <span class="fi fi-us text-[80px]"></span>
+                    </div>
+                    <h4 class="text-center text-pink-600 py-[5px]">Usa</h4>
+                    <p class="text-[14px] px-[10px] text-center text-gray-500">
+                        Embark on an enriching academic journey in the USA! Discover top
+                        universities, world-class faculty, and vibrant campus life. Unlock
+                        your potential in a global hub of innovation and excellence.
+                    </p>
+                </div>
+            </li>
+            <li class="w-full md:w-1/3 mb-[10px]">
+                <div class="w-[250px] h-[300px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
+                    <div class="w-[80px] h-[80px] overflow-hidden bg-blue-300 rounded-[50%] mx-auto" >
+                        <span class="fi fi-ca text-[80px]"></span>
+                    </div>
+                    <h4 class="text-center text-pink-600 py-[5px]">Canada</h4>
+                    <p class="text-[14px] px-[10px] text-center text-gray-500">
+                        Embark on an enriching academic journey in Canada! Explore
+                        top universities, diverse programs, and a welcoming community.
+                        Benefit from high-quality education, stunning landscapes, and
+                        a global perspective. Study in Canada for an exceptional experience.
+                    </p>
+                </div>
+            </li>
+            <li class="w-full md:w-1/3 mb-[10px]">
+                <div class="w-[250px] h-[300px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
+                    <div class="w-[80px] h-[80px] overflow-hidden bg-blue-300 rounded-[50%] mx-auto" >
+                        <span class="fi fi-au text-[80px]"></span>
+                    </div>
+                    <h4 class="text-center text-pink-600 py-[5px]">Australia</h4>
+                    <p class="text-[14px] px-[10px] text-center text-gray-500">
+                        In Australia, education is your passport to brilliance!
+                        Dive into vibrant learning, explore diverse cultures, and
+                        let the stunning landscapes inspire your academic journey.
+                        Unleash your potentia</p>
+                </div>
+            </li>
+        </ul>
+    </div>
     <div class="flex items-center py-[20px] flex-col">
         <h6 class="text-gray-600 mb-[10px]">CORE SERVICES</h6>
         <h1 class="font-semibold" style="color: lightseagreen">What We Do</h1>
     </div>
     <ul class="container pb-[30px] flex justify-center space-x-2 flex-wrap">
-        @for($i = 1; $i <= 6;$i++)
-            <li class="w-[100%] lg:w-[30%] my-[15px] ">
-                <div class="w-[80%] rounded mx-[auto] shadow h-[280px] p-[20px]">
-                    <div class="w-[60px] h-[60px] bg-red-900 mb-[20px] mx-[auto]"></div>
-                    <h6 class="text-red-500 text-center mb-[20px] font-semibold">University Application</h6>
-                    <p class="text-center font-[500] text-gray-500">We guide you through intricate international university admission applications and keep you updated with the progress</p>
+        <li class="w-[100%] lg:w-[30%] my-[15px] ">
+            <div class="w-[80%] rounded mx-[auto] shadow h-[280px] p-[20px]">
+                <div class="w-[60px] h-[60px] mb-[20px] mx-[auto]">
+                    <img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/7c7c7c/education.png" alt="education"/>
                 </div>
-            </li>
-        @endfor
+                <h6 class="text-red-500 text-center mb-[20px] font-semibold">Counseling</h6>
+                <p class="text-center font-[500] text-gray-500">
+                    Navigate your academic path with expert course counseling.
+                    Unlock your potential and shape your future with personalized
+                    guidance.
+                </p>
+            </div>
+        </li>
+        <li class="w-[100%] lg:w-[30%] my-[15px] ">
+            <div class="w-[80%] rounded mx-[auto] shadow h-[280px] p-[20px]">
+                <div class="w-[60px] h-[60px] mb-[20px] mx-[auto]">
+                    <img width="45" height="45" src="https://img.icons8.com/ios-filled/50/7c7c7c/diploma.png" alt="diploma"/>
+                </div>
+                <h6 class="text-red-500 text-center mb-[20px] font-semibold">Course Selection</h6>
+                <p class="text-center font-[500] text-gray-500">
+                    Diversify you futures with our multiple course options.
+                    Tailor your education, seize opportunities, and shape your journey.
+                </p>
+            </div>
+        </li>
+        <li class="w-[100%] lg:w-[30%] my-[15px] ">
+            <div class="w-[80%] rounded mx-[auto] shadow h-[280px] p-[20px]">
+                <div class="w-[60px] h-[60px] mb-[20px] mx-[auto]">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/7c7c7c/passport.png" alt="passport"/>
+                </div>
+                <h6 class="text-red-500 text-center mb-[20px] font-semibold">Visa Application</h6>
+                <p class="text-center font-[500] text-gray-500">We guide you through intricate international university admission applications and keep you updated with the progress</p>
+            </div>
+        </li>
     </ul>
     <div class="w-[100%] py-[50px] flex items-center justify-center bg-purple-700">
         <div class="container flex items-center justify-center mb-[20px]">
