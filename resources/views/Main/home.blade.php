@@ -31,20 +31,21 @@ $active_page = "Home";
         <h1 class="font-semibold pb-[30px]" style="color: lightseagreen">Where Can you Study</h1>
         <ul class="flex flex-wrap md:flex-nowrap container mx-auto mb-[20px]">
             <li class="w-full md:w-1/3 mb-[10px]">
-                <div class="w-[250px] h-[300px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
+                <div class="w-[250px] h-[330px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
                     <div class="w-[80px] h-[80px] overflow-hidden bg-blue-300 rounded-[50%] mx-auto" >
                         <span class="fi fi-us text-[80px]"></span>
                     </div>
-                    <h4 class="text-center text-pink-600 py-[5px]">Usa</h4>
+                    <h4 class="text-center text-pink-600 py-[5px]">USA</h4>
                     <p class="text-[14px] px-[10px] text-center text-gray-500">
                         Embark on an enriching academic journey in the USA! Discover top
                         universities, world-class faculty, and vibrant campus life. Unlock
                         your potential in a global hub of innovation and excellence.
                     </p>
+                    <a href="/study/usa" class="block text-center text-blue-500 py-[10px]">Read More</a>
                 </div>
             </li>
             <li class="w-full md:w-1/3 mb-[10px]">
-                <div class="w-[250px] h-[300px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
+                <div class="w-[250px] h-[fit-content] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
                     <div class="w-[80px] h-[80px] overflow-hidden bg-blue-300 rounded-[50%] mx-auto" >
                         <span class="fi fi-ca text-[80px]"></span>
                     </div>
@@ -55,10 +56,11 @@ $active_page = "Home";
                         Benefit from high-quality education, stunning landscapes, and
                         a global perspective. Study in Canada for an exceptional experience.
                     </p>
+                    <a href="/study/canada" class="block text-center text-blue-500 py-[10px]">Read More</a>
                 </div>
             </li>
             <li class="w-full md:w-1/3 mb-[10px]">
-                <div class="w-[250px] h-[300px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
+                <div class="w-[250px] h-[330px] shadow mx-auto py-[10px] hover:[transform:scale(1.05)]" style="transition: all ease-in 250ms;cursor: pointer">
                     <div class="w-[80px] h-[80px] overflow-hidden bg-blue-300 rounded-[50%] mx-auto" >
                         <span class="fi fi-au text-[80px]"></span>
                     </div>
@@ -68,6 +70,7 @@ $active_page = "Home";
                         Dive into vibrant learning, explore diverse cultures, and
                         let the stunning landscapes inspire your academic journey.
                         Unleash your potentia</p>
+                    <a href="/study/australia" class="block text-center text-blue-500 py-[10px]">Read More</a>
                 </div>
             </li>
         </ul>

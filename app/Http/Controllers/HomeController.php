@@ -10,36 +10,61 @@ use Illuminate\Support\Str;
 
 class HomeController extends Controller
 {
-    public function index()
+    public function index(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
         return view('Main.home');
     }
 
-    public function services()
+    public function services(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
         return view('Main.services');
     }
 
-    public function registration()
+    public function registration(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
         return view('Main.registration');
     }
 
-    public function enquiry()
+    public function enquiry(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
         return view('Main.enquiry');
     }
 
-    public function privacy()
+    public function privacy(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
         return view('Main.privacy');
     }
 
 
-    public function book()
+    public function book(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
     {
         return view('Main.book');
     }
+
+    public function studyIn($state): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
+    {
+        return match ($state) {
+            "usa" => view('Main.Study.usa'),
+            "canada" => view('Main.Study.canada'),
+            "australia" => view('Main.Study.australia'),
+            default => view('Main.home'),
+        };
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public function blog()
     {

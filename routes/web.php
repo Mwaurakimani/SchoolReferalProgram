@@ -25,6 +25,13 @@ Route::get('/book',[HomeController::class,'book'])->name('book');
 
 
 
+//study in
+Route::get('/study/{state}',[HomeController::class,'studyIn'])->name('studyInUSA');
+
+
+
+
+
 
 
 
