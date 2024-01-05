@@ -32,12 +32,14 @@
         </ul>
     </div>
     <div class="h-[50px] flex items-center justify-center">
-        <button onclick="window.location.href='/enquiry'" class="bg-pink-700 px-[10px] py-[4px] rounded-[3px] text-white text-[0.8em]">ENQUIRE NOW<i
+        <button onclick="window.location.href='/enquiry'" class="bg-purple-700 px-[10px] py-[4px] rounded-[3px] text-white text-[0.8em]">ENQUIRE NOW<i
                 class="bi bi-chat-fill mx-[3px]"></i></button>
     </div>
 </div>
 <div class="container main-home-navigation shadow bg-white flex flex-col md:flex-row items-center justify-center md:justify-between">
-    <div class="w-[150px] h-[60px] bg-red-900 text-purple-50">Logo</div>
+    <div class="w-[250px] h-[80px] text-purple-50 flex items-center justify-center">
+        <img src="/storage/system/fulllogo.png">
+    </div>
     <div class="w-[100%] md:w-[calc(100%-200px)]">
         <div id="searchSection" class="w-[100%] hidden">
             <div class="w-[100%] py-[10px] flex">
@@ -171,7 +173,7 @@
     }
 
     .desktop-menu ul a.active, #mobile-menu-dropdown a.active {
-        color: lightseagreen;
+        color: #b754f1;
     }
 
     #mobile-menu-dropdown {

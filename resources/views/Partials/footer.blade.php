@@ -1,8 +1,8 @@
 <div class="mb-[20px]">
     <div class="container flex flex-col md:flex-row py-[30px]">
         <div class="w-[100%] md:w-[50%] mb-[20px] md:mb-[5px] p-[10px]">
-            <div class="logo bg-red-500 mb-[20px] h-[50px]">
-                Logo
+            <div class="logo mb-[20px] h-[80px]">
+                <img class="h-[80px]" src="/storage/system/fulllogo.png">
             </div>
             <p class="!text-center text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aperiam autem delectus doloribus eaque illo itaque molestiae, natus odio temporibus ut vitae voluptatem? Ea esse et maiores ratione sequi.</p>
         </div>
