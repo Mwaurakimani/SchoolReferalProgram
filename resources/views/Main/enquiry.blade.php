@@ -61,7 +61,7 @@
                     <label for="exampleFormControlInput1"> I agree to allow the storage and processing of my information</label>
                 </div>
             </div>
-            <button class=" mb-[10px] py-[3px] px-[3px]   bg-purple-500 rounded-sm text-white hover:bg-orange-700">Submit</button>
+            <button class=" mb-[10px] py-[3px] px-[3px]   bg-blue-500 rounded-sm text-white hover:bg-orange-700">Submit</button>
         </form>
     </div>
 

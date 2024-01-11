@@ -1,10 +1,10 @@
 <div class="container bg-white flex flex-col md:flex-row items-center justify-center md:justify-between">
     <ul class="h-[50px] py-[15px] flex space-x-[10px]">
-        <li class="px-[5px]"><i class="bi bi-facebook text-purple-700 text-[20px] px-[0px] w-[22px]"></i></li>
-        <li class="px-[5px]"><i class="bi bi-twitter text-purple-700 text-[20px] px-[0px] w-[22px]"></i></li>
-        <li class="px-[5px]"><i class="bi bi-linkedin text-purple-700 text-[20px] px-[0px] w-[22px]"></i></li>
-        <li class="px-[5px]"><i class="bi bi-instagram text-purple-700 text-[20px] px-[0px] w-[22px]"></i></li>
-        <li class="px-[5px]"><i class="bi bi-youtube text-purple-700 text-[20px] px-[0px] w-[22px]"></i></li>
+        <li class="px-[5px]"><i class="bi bi-facebook text-blue-400 text-[20px] px-[0px] w-[22px]"></i></li>
+        <li class="px-[5px]"><i class="bi bi-twitter text-blue-400 text-[20px] px-[0px] w-[22px]"></i></li>
+        <li class="px-[5px]"><i class="bi bi-linkedin text-blue-400 text-[20px] px-[0px] w-[22px]"></i></li>
+        <li class="px-[5px]"><i class="bi bi-instagram text-blue-400 text-[20px] px-[0px] w-[22px]"></i></li>
+        <li class="px-[5px]"><i class="bi bi-youtube text-blue-400 text-[20px] px-[0px] w-[22px]"></i></li>
     </ul>
     <div class="h-[50px] flex items-center space-x-2" style="z-index: 15000">
         <div class="dropdown">
@@ -32,49 +32,51 @@
         </ul>
     </div>
     <div class="h-[50px] flex items-center justify-center">
-        <button onclick="window.location.href='/enquiry'" class="bg-purple-700 px-[10px] py-[4px] rounded-[3px] text-white text-[0.8em]">ENQUIRE NOW<i
+        <button onclick="window.location.href='/enquiry'" class="bg-blue-400 px-[10px] py-[4px] rounded-[3px] text-white text-[0.8em]">ENQUIRE NOW<i
                 class="bi bi-chat-fill mx-[3px]"></i></button>
     </div>
 </div>
-<div class="container main-home-navigation shadow bg-white flex flex-col md:flex-row items-center justify-center md:justify-between">
-    <div class="w-[250px] h-[80px] text-purple-50 flex items-center justify-center">
-        <img src="/storage/system/fulllogo.png">
-    </div>
-    <div class="w-[100%] md:w-[calc(100%-200px)]">
-        <div id="searchSection" class="w-[100%] hidden">
-            <div class="w-[100%] py-[10px] flex">
-                <input class="search mx-[20px] shadow-none w-[calc(100%-30px)] rounded" placeholder="Search..."
-                       style="border: none !important;outline: none!important;" type="search">
-                <button onclick="hideSearch()" type="button"><i class="bi text-[22px] bi-x-lg text-gray-500"></i>
-                </button>
-            </div>
+<div class="main-home-navigation shadow bg-white">
+    <div class="container flex flex-col md:flex-row items-center justify-center md:justify-between py-[10px]">
+        <div class="w-[250px] md:h-[100px] text-purple-50 flex items-center justify-center">
+            <img class="h-[50px] md:h-[100px]" src="/storage/system/fulllogo.png">
         </div>
-        <div id="menuSection">
-            <div class="flex desktop-menu justify-center py-[10px] md:justify-end">
-                <ul class="hidden md:flex">
-                    <li><a href="/" class="{{ isset($active_page) && $active_page == 'Home' ?'active':''}}">Home</a>
+        <div class="w-[100%] md:w-[calc(100%-200px)]">
+            <div id="searchSection" class="w-[100%] hidden">
+                <div class="w-[100%] py-[10px] flex">
+                    <input class="search mx-[20px] shadow-none w-[calc(100%-30px)] rounded" placeholder="Search..."
+                           style="border: none !important;outline: none!important;" type="search">
+                    <button onclick="hideSearch()" type="button"><i class="bi text-[22px] bi-x-lg text-gray-500"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="menuSection">
+                <div class="flex desktop-menu justify-center py-[10px] md:justify-end">
+                    <ul class="hidden md:flex">
+                        <li><a href="/" class="{{ isset($active_page) && $active_page == 'Home' ?'active':''}}">Home</a>
+                        </li>
+                        <li><a href="/services" class="{{ isset($active_page) && $active_page == 'services' ?'active':''}}">Our
+                                Services</a></li>
+                        <li><a href="/registration"
+                               class="{{ isset($active_page) && $active_page == 'registration' ?'active':''}}">Registration</a>
+                        </li>
+                    </ul>
+                    <button onclick="displaySearch()" type="button" class="mx-[10px]"><i class="bi bi-search"></i></button>
+                    <button onclick="toggleMenu()" type="button" class="mx-[10px] md:hidden"><i class="bi bi-list"></i>
+                    </button>
+                </div>
+                <ul id="mobile-menu-dropdown" class="md:hidden w-[250px] h-[0px] mx-[auto] shadow" data-open=false>
+                    <li><a href="/"
+                           class="h-[35px] block px-[10px] {{ isset($active_page) && $active_page == 'Home' ?'active':''}}">Home</a>
                     </li>
-                    <li><a href="/services" class="{{ isset($active_page) && $active_page == 'services' ?'active':''}}">Our
+                    <li><a href="/services"
+                           class="h-[35px] block px-[10px] {{ isset($active_page) && $active_page == 'services' ?'active':''}}">Our
                             Services</a></li>
                     <li><a href="/registration"
-                           class="{{ isset($active_page) && $active_page == 'registration' ?'active':''}}">Registration</a>
+                           class="h-[35px] block px-[10px] {{ isset($active_page) && $active_page == 'registration' ?'active':''}}">Registration</a>
                     </li>
                 </ul>
-                <button onclick="displaySearch()" type="button" class="mx-[10px]"><i class="bi bi-search"></i></button>
-                <button onclick="toggleMenu()" type="button" class="mx-[10px] md:hidden"><i class="bi bi-list"></i>
-                </button>
             </div>
-            <ul id="mobile-menu-dropdown" class="md:hidden w-[250px] h-[0px] mx-[auto] shadow" data-open=false>
-                <li><a href="/"
-                       class="h-[35px] block px-[10px] {{ isset($active_page) && $active_page == 'Home' ?'active':''}}">Home</a>
-                </li>
-                <li><a href="/services"
-                       class="h-[35px] block px-[10px] {{ isset($active_page) && $active_page == 'services' ?'active':''}}">Our
-                        Services</a></li>
-                <li><a href="/registration"
-                       class="h-[35px] block px-[10px] {{ isset($active_page) && $active_page == 'registration' ?'active':''}}">Registration</a>
-                </li>
-            </ul>
         </div>
     </div>
 </div>
@@ -153,7 +155,6 @@
     }
 
 </script>
-
 <style>
     .main-home-navigation {
         position: sticky;
@@ -166,14 +167,20 @@
         font-weight: 600;
         margin: 0 10px;
         color: grey;
+        padding: 10px;
+        border-radius: 5px;
     }
 
     .desktop-menu ul a:hover, #mobile-menu-dropdown a:hover {
-        color: #4d4d4d;
+        background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+        color: white;
     }
 
     .desktop-menu ul a.active, #mobile-menu-dropdown a.active {
-        color: #b754f1;
+        background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
     }
 
     #mobile-menu-dropdown {
